@@ -1,0 +1,16 @@
+#MGKK - KK Gluon mass and witdh
+set param_card MASS 9000021 {KKGluon_mass}
+set param_card DECAY 9000021 Auto
+#MR - Radion mass and width
+set param_card MASS 9000025 {KKRadion_mass}
+set param_card DECAY 9000025 Auto
+#MKK - Other EW KK gauge bosons mass
+set param_card KKINPUTS 6 3000 
+#ggrav - KK gravity coupling
+set param_card KKINPUTS 4 {gravity_coupling}
+#gAKK - coupling for KK photon
+set param_card KKINPUTS 2 {KKphoton_coupling}
+#gWKK - coupling for KK W
+set param_card KKINPUTS 1 {KKW_coupling}
+#gGKK - coupling for KK gluon
+set param_card KKINPUTS 3 {KKgluon_coupling}
